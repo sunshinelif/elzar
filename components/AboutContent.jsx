@@ -10,7 +10,7 @@ const AboutContent = () => {
 
         <div className='max-w-[1000px] w-full'>
             <Title>
-            <h4 className='text-black text-5xl mb-6 mr-3'> hello About Elzar Commercial Steel</h4>
+            <h4 className='text-black text-5xl mb-6 mr-3'>About Elzar Commercial Steel</h4>
             </Title>
             <div className=' items-start '>
             <p className='block block-start top-0  text-black text-justify mr-3'>
