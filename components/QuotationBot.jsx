@@ -24,7 +24,7 @@ const QuotationBot = () => {
     if (!file) return;
 
     if (file.size > 5 * 1024 * 1024) {
-      alert("Dosya boyutu en fazla 5MB olabilir.");
+      alert("file should be at most 5MB.");
       return;
     }
 
@@ -64,7 +64,7 @@ const QuotationBot = () => {
         "template_7xadanl", // Template ID
         {
           ...form,
-          file: fileUrl || "Dosya yüklenmedi",
+          file: fileUrl || "No file attached",
         },
         "GPZjutzhD9df0z3Gs" // EmailJS Public Key
       )
@@ -88,7 +88,7 @@ const QuotationBot = () => {
   };
 
   return (
-    <div className="fixed bottom-8 right-8 z-50">
+    <div className="fixed bottom-24 right-8 z-50">
       {!isOpen ? (
         <button
           onClick={() => setIsOpen(true)}

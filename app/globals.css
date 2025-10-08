@@ -69,3 +69,20 @@ body {
 .no-scroll{
   overflow: hidden;
 }
+
+.sliderImage{
+
+  display: block;
+}
+/* .vision-mission{
+  display: flex;
+} */
+@media (max-width: 640px) {
+  .sliderImage{
+    display: none;
+  }
+  /* .vision-mission{
+  display: block;
+} */
+}
+

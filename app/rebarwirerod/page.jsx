@@ -6,7 +6,7 @@ const page = () => {
 
 <div className="mt-28 bg-gray-50 flex flex-col items-center justify-center">
 
-  <div className="relative w-full h-[600px]">
+  <div className="relative w-full h-[400px]">
     <Image
       src="https://res.cloudinary.com/dypxjkgd8/image/upload/v1759152035/wirerodrebar_j5rmrq.png"
       alt="hot rolled"

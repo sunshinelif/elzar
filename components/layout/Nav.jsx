@@ -40,7 +40,7 @@ const Nav = () => {
   ];
 
   return (
-    <nav className="fixed w-full z-50 mt-0 bg-white flex items-center justify-between h-28 border sm:px-8 px-4">
+    <nav className="fixed w-full z-50 mt-0 bg-white flex items-center justify-between h-20 border sm:px-8 px-4">
       <Link href='/' className="h-full py-2">
         <Logo />
       </Link>
@@ -68,8 +68,8 @@ const Nav = () => {
           </li>
 
           <li className="nav-list-item">
-            <Link href="/scrap" onClick={() => setMenuOpen(false)} className='font-bold'>
-              Scrap
+            <Link href="/materials" onClick={() => setMenuOpen(false)} className='font-bold'>
+              Raw Materials
             </Link>
           </li>
           {/* CORPORATE DROPDOWN */}
@@ -94,8 +94,9 @@ const Nav = () => {
 
         </ul>
 
-        <div className='px-8 lg:p-0'>
-          <Link href="/#contactForm" className="font-bold btn h-12 rounded-full text-white text-nowrap bg-secondary-150 w-full mt-12 lg:mt-0 lg:ml-6 lg:w-auto uppercase" onClick={() => setMenuOpen(false)}>
+        <div className=' lg:p-0'>
+          <Link href="/#contactForm" className="font-bold p-1 h-8 rounded-md text-white text-nowrap bg-secondary-150 w-full  mt-12 lg:mt-0 lg:ml-6 lg:w-auto uppercase" onClick={() => setMenuOpen(false)}>
+
             Contact
           </Link>
         </div>

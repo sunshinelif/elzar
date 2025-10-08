@@ -6,11 +6,11 @@ const AboutContent = () => {
   return (
 <section id='about'>
       <div className='max-container'>
-      <div className='flex md:flex-row flex-col w-full items-center pt-[170px] pb-16'>
+      <div className='justify-center w-full items-center pt-[170px] pb-16'>
 
-        <div className='max-w-[1000px] w-full'>
+        <div className='text-justify w-full '>
             <Title>
-            <h4 className='text-black text-5xl mb-6 mr-3'>About Elzar Commercial Steel</h4>
+            <h4 className='text-black text-5xl mb-6 mr-3 text-center p-2 border-black border-b-2 border-b-dotted'>About Elzar Commercial Steel</h4>
             </Title>
             <div className=' items-start '>
             <p className='block block-start top-0  text-black text-justify mr-3'>
@@ -20,9 +20,9 @@ const AboutContent = () => {
 
             </div>
          </div>
-                 <div className=''>
+                 {/* <div className=''>
           <img src='https://res.cloudinary.com/dypxjkgd8/image/upload/v1758810654/aboutus_qnyvpl.jpg' alt='ELZAR' width={600} height={600} />
-        </div>
+        </div> */}
       </div>
     </div>
 </section>
